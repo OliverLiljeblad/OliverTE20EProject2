@@ -16,13 +16,13 @@ header {
   top: 0;
 }
 
-nav {
+.top {
   display: flex;
   justify-content: space-between;
   padding-left: 20%;
 }
 
-nav a {
+.top a {
   text-decoration: none;
   font-size: 18px;
 }
@@ -46,8 +46,9 @@ nav a {
 }
 
 .main {
-  padding: 20%;
+  padding: 17.35%;
 }
+
 footer {
   background-color: #4f9dd6;
 }
