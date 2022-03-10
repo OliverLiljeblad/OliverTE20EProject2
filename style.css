@@ -28,7 +28,9 @@ header {
 }
 
 .topnav {
-  padding: 10px;
+  padding: 9px;
+  padding-left: 0px;
+  padding-right: 0px;
   background-color: #76cfa9;
 }
 
@@ -46,7 +48,25 @@ header {
 }
 
 .main {
-  padding: 17.35%;
+  padding-bottom: 10%;
+  padding-top: 5%;
+}
+
+.main1 {
+  padding-top: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+  display: flex;
+  justify-content: end;
+  justify-content: space-between;
+}
+
+.main1 h3 {
+  padding: 2%;
+}
+
+.mainI {
+  padding-top: 3%;
 }
 
 .abMid {
@@ -56,11 +76,11 @@ header {
 }
 
 footer {
+  padding-right: 2%;
   background-color: #4daa83;
-}
-
-.mainI {
-  padding-top: 3%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .pearpic {
