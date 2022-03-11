@@ -30,7 +30,6 @@ header {
 .topnav {
   padding: 9px;
   padding-left: 0px;
-  padding-right: 0px;
   background-color: #76cfa9;
 }
 
@@ -47,15 +46,23 @@ header {
   color: rgb(0, 0, 0);
 }
 
+.imgIndex {
+  padding-left: 250px;
+}
+
 .main {
   padding-bottom: 10%;
   padding-top: 5%;
+  background-image: url(PearLogo.png);
 }
+
+
 
 .main1 {
   padding-top: 5%;
   padding-left: 5%;
   padding-right: 5%;
+  padding-bottom: 50%;
   display: flex;
   justify-content: end;
   justify-content: space-between;
