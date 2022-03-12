@@ -53,12 +53,12 @@ header {
 .main {
   padding-bottom: 10%;
   padding-top: 5%;
-  background-image: url(PearLogo.png);
+  background-image: url(PearLogo.png)
 }
 
 
 
-.main1 {
+.mainI {
   padding-top: 5%;
   padding-left: 5%;
   padding-right: 5%;
@@ -77,6 +77,7 @@ header {
 }
 
 .abMid {
+  padding-top: 25%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
