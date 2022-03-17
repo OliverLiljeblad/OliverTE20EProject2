@@ -56,24 +56,21 @@ header {
   background-image: url(PearLogo.png)
 }
 
-
-
 .mainI {
-  padding-top: 5%;
-  padding-left: 5%;
-  padding-right: 5%;
-  padding-bottom: 50%;
   display: flex;
-  justify-content: end;
-  justify-content: space-between;
+  flex-wrap: wrap; 
+  padding-top: 5%;
+  padding-left: 10%;
+  padding-bottom: 10%;
+  
+}
+
+.mainI div {
+  padding-right: 0%;
 }
 
 .main1 h3 {
   padding: 2%;
-}
-
-.mainI {
-  padding-top: 3%;
 }
 
 .abMid {
@@ -89,8 +86,4 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-
-.pearpic {
-  padding-top: 2%;
 }

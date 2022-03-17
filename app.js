@@ -1,2 +1,7 @@
-let product = 2;
+let product = 0;
 let 
+
+
+function add (params) {
+    onclick(add)
+}
